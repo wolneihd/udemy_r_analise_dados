@@ -12,3 +12,8 @@
 # calcular Outliers:
 # limite superior <- Q1 + 1.5 x IQR
 # IQR > intervalo interquartil
+
+# qualitativas: nominais, ordinais.
+# quantitativas: numéricas e contagens.
+
+# distribuição normal

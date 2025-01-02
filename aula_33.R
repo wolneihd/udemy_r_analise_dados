@@ -64,6 +64,10 @@ covid_campinas_sem_outliers <- covid_campinas[covid_campinas$casos_novos >= lowe
 boxplot(covid_campinas_sem_outliers$casos_novos)
 
 # medidas de dispersão
+# desvio populacional > soma das diferenças com relação a média.
 var(covid_campinas$casos_novos)
+
+# desvio padrão > raiz quadrada da variância populacional
+sd(covid_campinas$casos_novos)
 
 
